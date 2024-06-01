@@ -1,0 +1,41 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="privateAPI.js" type="K6ConfigurationType" factoryName="k6" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <option name="allowRunningInParallel" value="false" />
+    <option name="data">
+      <K6RunData>
+        <option name="additionalParams" value="" />
+        <option name="envs">
+          <map />
+        </option>
+        <option name="passParentEnvs" value="true" />
+        <option name="pty" value="true" />
+        <option name="script" value="privateAPI.js" />
+        <option name="thresholdsAsTests" value="false" />
+        <option name="type" value="local" />
+        <option name="workingDir" value="" />
+      </K6RunData>
+    </option>
+    <option name="defaultTargetName" />
+    <option name="envs">
+      <map />
+    </option>
+    <option name="passParentEnvs" value="true" />
+    <option name="programParameters" value="" />
+    <option name="projectPathOnTarget" />
+    <option name="selectedOptions">
+      <list />
+    </option>
+    <option name="workingDirectory" value="" />
+    <option name="additionalParams" value="" />
+    <option name="envs">
+      <map />
+    </option>
+    <option name="passParentEnvs" value="true" />
+    <option name="pty" value="true" />
+    <option name="script" value="privateAPI.js" />
+    <option name="thresholdsAsTests" value="false" />
+    <option name="type" value="local" />
+    <option name="workingDir" value="" />
+    <method v="2" />
+  </configuration>
+</component>
