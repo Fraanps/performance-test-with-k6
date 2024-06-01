@@ -59,3 +59,8 @@ Critérios:
     * Usuários par devem realizar busca ao crocodilo de ID 2
     * Usuário ímpar devem realizar busca ao crocodilo de ID 1
   * Ambos os testes devem ser executados simultaneamente.
+
+
+  
+Plugin para gerar relatório de saída html:
+[k6-reporter](https://github.com/benc-uk/k6-reporter)

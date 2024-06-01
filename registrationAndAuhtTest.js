@@ -2,6 +2,8 @@ import http from 'k6/http';
 import {check, sleep} from 'k6';
 import {SharedArray} from 'k6/data'
 import papaparse from 'https://jslib.k6.io/papaparse/5.1.1/index.js'
+import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
+
 
 // configuração
 export const options = {
@@ -37,7 +39,7 @@ export default function () {
     password: PASS
   });
 
-  console.log (USER + PASS)
+  console.log (USER + " " + PASS)
 
   // validações
   check (res, {
@@ -46,3 +48,10 @@ export default function () {
   });
 
 };
+
+// fase de desmontagem - criando um relatório
+export function handleSummary(data) {
+  return {
+    "teste_k6.html": htmlReport(data),
+  };
+}
